@@ -11,4 +11,5 @@ I used the OS library to load the images into an array (list) and from the list
 we can access the whole image for that matter first place image number 1 and so on
 See function - load_images_from_folder (folder)
 Perception of the desired places in the picture for marking:
-First thing - use Canny to get the edges of the image (the desired hand) then use the Hough Circles function to get all the circles in the image that have a function according to the parameters we enter such as the radius of the circle we are looking for and the maximum and minimum parameters get circles
+First thing - use Canny to get the edges of the image (the desired hand) then use the Hough Circles function to get all the circles in the image that have a function according to the parameters we enter such as the radius of the circle we are looking for and the maximum and minimum parameters get circles After adjusting the function to the requirements of the exercise I got all the possible circles then I made a loop transition on all the circles obtained and sculpted some of them for example a wristwatch is usually on the X axis at the end so there I did not mark a circle according to logic according to the pictures we got (not I got ).
+Finally a function responsible for the display in the manner required one after the other show ().
