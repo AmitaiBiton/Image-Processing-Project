@@ -15,7 +15,7 @@ First thing - use Canny to get the edges of the image (the desired hand) then us
 Finally a function responsible for the display in the manner required one after the other show ().
 
 #### result:
-![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q1/image0.png) 
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q1/image3.png) 
 ![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q1/image1.png) 
 
 
