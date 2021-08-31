@@ -87,4 +87,8 @@ I built a function that finds point 7 by going over the canny so if we encounter
 #### result images and mp point to Xls file:
 ![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/g_result.png)  
 
+#### More results:
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/result.png)  
+
+
 
