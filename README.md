@@ -19,6 +19,9 @@ Finally a function responsible for the display in the manner required one after 
 ![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q1/image1.png) 
 
 see more at https://github.com/AmitaiBiton/Project---Image-Processing/tree/main/results/results_q1  
-see code - https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/projectIM2021_q1.py
+see code - https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/projectIM2021_q1.py     
+
+
+### Q2:
 
 
