@@ -37,6 +37,11 @@ Y values:
 2. Middle finger value in second place
 3. Very small value
 According to the previous exercise we will again mark the points on the nails and we will select the points according to their Y values ​​according to the illustration we presented
-We will sort by Y values ​​then we can get the point area number 7 which I am looking for first.
+We will sort by Y values then we can get the point area number 7 which I am looking for first.  
+
+##### step two :
+We will use the function goodFeaturesToTrack to mark important points I adjusted the values ​​of the function so that we get only the point 7 or close to it
+By calculating the Y values we will take the points closest to the Y axis but the distant ones on the X axis and thus we will get the blue dot marked in the figure.
+Sometimes he does not find the most accurate point but I tried to optimize it as much as possible
 
 
