@@ -30,7 +30,7 @@ The main problem - find 9 points on the hands that if you draw a line between th
 In one word - identifying the relevant points Predicting the other points and correcting them at the end by edges (Canny)  
 ![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/idea.png) 
 
-##### step one :
+##### step 1:
 As you can see in the figure you can identify these 3 fingers in the following way -
 Y values:
 1. The thumb is the lowest value on the Y-axis
@@ -39,9 +39,16 @@ Y values:
 According to the previous exercise we will again mark the points on the nails and we will select the points according to their Y values ​​according to the illustration we presented
 We will sort by Y values then we can get the point area number 7 which I am looking for first.  
 
-##### step two :
+##### step 2:
 We will use the function goodFeaturesToTrack to mark important points I adjusted the values ​​of the function so that we get only the point 7 or close to it
 By calculating the Y values we will take the points closest to the Y axis but the distant ones on the X axis and thus we will get the blue dot marked in the figure.
 Sometimes he does not find the most accurate point but I tried to optimize it as much as possible
 
 
+##### step 3:
+Once we have found point number 7 it is possible to calculate points 6 and 8 in two ways
+1. Finger distances I built a function that passes over the Canny and calculates finger thickness so twice this thickness is approximately the distance of these points from point 7 on the Y axis and the X axis the same value as the digit 7
+2. It is possible to draw a line between the thumb (on the X-axis) and the finger and mark a point of distance two fingers on the Y-axis (according to what I have seen so far this method is preferable) together with the use of a point on the finger
+Axis X by the thumb line, Axis Y by the point on the nail of the "finger".
+Summary I built a function that performs the calculation for each image which is more appropriate 1 or 2
+1 is in a straight line with the finger and 2 is adjusts itself to the thumb line the small value between 1 and 2 is made minimum in them (makes sense)
