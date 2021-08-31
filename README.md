@@ -80,5 +80,11 @@ I built a function that finds point 7 by going over the canny so if we encounter
 
 ###### An example of an illustration:  
 
-![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/step_6.png)   
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/step_6.png)  
+
+### result:
+
+#### result images and mp point to Xls file:
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/g_result.png)  
+
 
