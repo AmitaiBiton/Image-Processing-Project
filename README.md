@@ -27,7 +27,9 @@ see code - https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/p
 The main problem - find 9 points on the hands that if you draw a line between them, it will surround the wrist:
 
 #### my idea is:
-In one word - identifying the relevant points Predicting the other points and correcting them at the end by edges (Canny)
+In one word - identifying the relevant points Predicting the other points and correcting them at the end by edges (Canny)  
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/idea.png) 
+
 ##### step one :
 As you can see in the figure you can identify these 3 fingers in the following way -
 Y values:
