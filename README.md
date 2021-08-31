@@ -55,5 +55,15 @@ Summary I built a function that performs the calculation for each image which is
 1 is in a straight line with the finger and 2 is adjusts itself to the thumb line the small value between 1 and 2 is made minimum in them (makes sense)  
 
 ###### An example of an illustration:
-![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/step_3.png) 
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/step_3.png)   
 
+
+##### Step 4:
+Predicting the rest of the points on the hand by the thickness of the fingers (it is not as infallible as it sounds there is a relationship between the size of the hand and the distances of the points on the palm unless the palm is completely symmetrical)
+
+##### Step 5: Perhaps the most important step
+After predicting the points fix the points by using Canny over it and stretching the points on the X or Y axis respectively
+One can imagine it beyond the X-axis 50 pixels if we found a place where there are edges I mean
+Canny == 255 Then move the point there as well as on the X-axis
+Can also go down (-).
+In addition a test on certain points like point 5 can not be too small compared to point 4 or 6 so I also performed such a test
