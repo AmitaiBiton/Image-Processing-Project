@@ -66,4 +66,11 @@ After predicting the points fix the points by using Canny over it and stretching
 One can imagine it beyond the X-axis 50 pixels if we found a place where there are edges I mean
 Canny == 255 Then move the point there as well as on the X-axis
 Can also go down (-).
-In addition a test on certain points like point 5 can not be too small compared to point 4 or 6 so I also performed such a test
+In addition a test on certain points like point 5 can not be too small compared to point 4 or 6 so I also performed such a test.  
+
+##### final stage:
+Writing the points into Excel
+Displays the new images in which the required illustration appears.
+Tests and corrections made on the prediction of the points on the palm:
+We found 5 points on the nails:
+If we were able to find 5 points on 5 nails then the program works as I detailed above finds point number 7 by minimum distance on the Y axis then takes into account the T. axis of the point on the little finger (nail) and by sizes finds point number 8 then computers The thumb line and the y-axis of the dot on the nail of the "finger" and decide which of them is better the rest of the fingers contract according to the sizes of the fingers and finally fix on the edges (canny).
