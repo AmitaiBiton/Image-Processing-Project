@@ -28,6 +28,7 @@ The main problem - find 9 points on the hands that if you draw a line between th
 
 #### my idea is:
 In one word - identifying the relevant points Predicting the other points and correcting them at the end by edges (Canny)  
+
 ![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/idea.png) 
 
 ##### step 1:
