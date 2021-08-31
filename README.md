@@ -24,4 +24,9 @@ see code - https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/p
 
 ### Q2:
 
+The main problem - find 9 points on the hands that if you draw a line between them, it will surround the wrist:
+
+#### my idea is:
+
+
 
