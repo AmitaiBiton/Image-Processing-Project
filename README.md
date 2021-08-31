@@ -51,4 +51,8 @@ Once we have found point number 7 it is possible to calculate points 6 and 8 in 
 2. It is possible to draw a line between the thumb (on the X-axis) and the finger and mark a point of distance two fingers on the Y-axis (according to what I have seen so far this method is preferable) together with the use of a point on the finger
 Axis X by the thumb line, Axis Y by the point on the nail of the "finger".
 Summary I built a function that performs the calculation for each image which is more appropriate 1 or 2
-1 is in a straight line with the finger and 2 is adjusts itself to the thumb line the small value between 1 and 2 is made minimum in them (makes sense)
+1 is in a straight line with the finger and 2 is adjusts itself to the thumb line the small value between 1 and 2 is made minimum in them (makes sense)  
+
+###### An example of an illustration:
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/step_3.png) 
+
