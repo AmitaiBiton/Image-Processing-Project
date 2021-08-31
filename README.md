@@ -27,6 +27,14 @@ see code - https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/p
 The main problem - find 9 points on the hands that if you draw a line between them, it will surround the wrist:
 
 #### my idea is:
-
+In one word - identifying the relevant points Predicting the other points and correcting them at the end by edges (Canny)
+##### step one :
+As you can see in the figure you can identify these 3 fingers in the following way -
+Y values:
+1. The thumb is the lowest value on the Y-axis
+2. Middle finger value in second place
+3. Very small value
+According to the previous exercise we will again mark the points on the nails and we will select the points according to their Y values ​​according to the illustration we presented
+We will sort by Y values ​​then we can get the point area number 7 which I am looking for first.
 
 
