@@ -76,4 +76,9 @@ Tests and corrections made on the prediction of the points on the palm:
 If we were able to find 5 points on 5 nails then the program works as I detailed above finds point number 7 by minimum distance on the Y axis then takes into account the T. axis of the point on the little finger (nail) and by sizes finds point number 8 then computers The thumb line and the y-axis of the dot on the nail of the "finger" and decide which of them is better the rest of the fingers contract according to the sizes of the fingers and finally fix on the edges (canny).  
 
 ##### We did not find 5 points on the nails:
-I built a function that finds point 7 by going over the canny so if we encountered edges skip it and hold a number if it is equal to 4 I mean I got to the middle finger it usually happens at the top of the finger so need to fix about the size of the finger so I took a logical number fixed with it on the axis X After we have built the point seven the point 6 and 8 we build at a distance of 2 fingers from it on the Y-axis and continue in the same method on all the other fingers and at the end fixtures with canny usually in this part the points come out less accurate on the hand
+I built a function that finds point 7 by going over the canny so if we encountered edges skip it and hold a number if it is equal to 4 I mean I got to the middle finger it usually happens at the top of the finger so need to fix about the size of the finger so I took a logical number fixed with it on the axis X After we have built the point seven the point 6 and 8 we build at a distance of 2 fingers from it on the Y-axis and continue in the same method on all the other fingers and at the end fixtures with canny usually in this part the points come out less accurate on the hand.
+
+###### An example of an illustration:  
+
+![alt text](https://github.com/AmitaiBiton/Project---Image-Processing/blob/main/results/results_q2/step_6.png)   
+
