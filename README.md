@@ -1,5 +1,5 @@
-# Project---Image-Processing
-## final Project in the course  
+# Image-Processing-Project
+## final Project in Image Processing course  
 
 ## Q1:
 
